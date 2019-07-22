@@ -1,0 +1,79 @@
+# 算术运算→数值运算
+
+a = 100
+b = 67
+print(a + b)  加法
+print(a - b)  减法
+print(a * b)  乘法
+print(a / b)  除法→得到浮点型
+print(a // b) 除法→取整数
+print(a ** 2) 乘方
+print(a % b)  取余
+
+#布尔型
+
+  #比较运算符→数值之间比较
+print(1>2)  大于
+print(1<2)  小于
+print(1==2) 等于
+print(1!=2) 不等于
+print(1>=2) 大于等于
+print(1<=2) 小于等于
+
+#逻辑运算符→且或非
+print(True and True)
+print(True and False)
+print("------")
+    #and:且
+print(True or False)
+print(False or False)
+    #or:或
+print(not True)
+print(not False)
+    #not:非
+    
+#本质上，True = 1,False = 0
+  
+print(True == 1)
+print(False == 0)
+print(True + 10)
+
+
+字符串：字符串是Python中最常用的数据类型。
+  #字符串用引号创建
+st1 = "hello world!"
+st2 = "woxihuanni"
+st3 = """姚犇犇
+喜欢
+苏菲玛索
+"""
+print(st1）
+print(st2)
+print(st3）
+  # ''和""一样→单行字符串
+  # ''' '''和""""""一样→多行字符串
+
+  #字符串可以和数字一起print
+print("我数学考了",100,"分")
+
+  # 转义字符 → \
+print("提行\n 提行\n-----") # \n:提行
+print(r"提行\n 提行\n-----")  # r:加上后，\将不会有转义功能
+
+  # 路径的设置
+dr1 = "E:/姚犇犇/2019工作信息/工作周报/新建文件夹/01python入门/"
+dr2 = "E:\\姚犇犇\2019工作信息\\工作周报\新建文件夹\\01python入门\\"
+print(dr1)
+print(dr2)
+
+  # 字符串运算
+print("hello" + "world")  #字符串连接
+print("hello" * 5)  #重复字符串
+print("h" in "hello","h" not in "hello")  # in、not in 成员运算符
+
+  # 目前已出现五种运算符：赋值运算、数值运算、比较运算、逻辑运算、成员运算
+  
+  #常用字符串的函数、方法
+print(len("12345")) # len() → 计算长度
+print(str(12345),str(10.29))  # str() → 将数值型转换成浮点型
+print(int
